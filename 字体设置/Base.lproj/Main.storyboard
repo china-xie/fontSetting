@@ -18,38 +18,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wZe-LD-dVY">
-                                <frame key="frameInset" minX="164" minY="253" width="106" height="30"/>
-                                <color key="backgroundColor" red="0.55813878800000005" green="0.85773188649999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="添加控件Button"/>
-                            </button>
-                            <button opaque="NO" tag="10086" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SLC-Vu-BfZ">
-                                <frame key="frameInset" minX="167" minY="475" width="90" height="30"/>
+                            <button opaque="NO" tag="10086" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SLC-Vu-BfZ">
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <state key="normal" title="另一个button"/>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="添加控件Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wnX-Hs-aSx">
-                                <frame key="frameInset" minX="166" minY="175" width="110" height="20.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="添加控件Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wnX-Hs-aSx">
                                 <color key="backgroundColor" red="0.95218635620000003" green="0.53272746650000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" tag="10000" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ShS-5T-TsB">
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wZe-LD-dVY">
+                                <color key="backgroundColor" red="0.55813878800000005" green="0.85773188649999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="添加控件Button"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="wZe-LD-dVY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="164" id="IB8-hJ-5Jg"/>
-                            <constraint firstItem="wnX-Hs-aSx" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="155" id="UBV-zZ-sbX"/>
-                            <constraint firstItem="SLC-Vu-BfZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="167" id="XRe-Qf-IZz"/>
-                            <constraint firstItem="ShS-5T-TsB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="173" id="eq7-nL-ifK"/>
-                            <constraint firstItem="ShS-5T-TsB" firstAttribute="top" secondItem="SLC-Vu-BfZ" secondAttribute="bottom" constant="78" id="ijp-nu-Txq"/>
-                            <constraint firstItem="wZe-LD-dVY" firstAttribute="top" secondItem="wnX-Hs-aSx" secondAttribute="bottom" constant="58" id="rP9-KG-CvS"/>
-                            <constraint firstItem="SLC-Vu-BfZ" firstAttribute="top" secondItem="wZe-LD-dVY" secondAttribute="bottom" constant="191.5" id="rs7-B3-BKU"/>
-                            <constraint firstItem="wnX-Hs-aSx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="166" id="sdo-da-ltE"/>
+                            <constraint firstItem="wnX-Hs-aSx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FLP-ob-9oS"/>
+                            <constraint firstItem="SLC-Vu-BfZ" firstAttribute="top" secondItem="wZe-LD-dVY" secondAttribute="bottom" constant="100" id="Gdb-53-lL7"/>
+                            <constraint firstItem="SLC-Vu-BfZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Gf6-hf-n1a"/>
+                            <constraint firstItem="wZe-LD-dVY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SvM-7h-hC9"/>
+                            <constraint firstItem="wZe-LD-dVY" firstAttribute="top" secondItem="wnX-Hs-aSx" secondAttribute="bottom" constant="47" id="lRg-7s-0Ju"/>
+                            <constraint firstItem="wnX-Hs-aSx" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="59" id="mst-4e-tG0"/>
                         </constraints>
                     </view>
                     <connections>
@@ -60,7 +51,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="289" y="166"/>
+            <point key="canvasLocation" x="288.80000000000001" y="165.06746626686657"/>
         </scene>
     </scenes>
 </document>

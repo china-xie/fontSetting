@@ -9,7 +9,7 @@
 #import "UILabel+FontChange.h"
 #import <objc/runtime.h>
 
-#define CustomFontName @"FZLiBian-S02S"
+#define CustomFontName @"Americana Dreams Upright"
 
 @implementation UILabel (FontChange)
 

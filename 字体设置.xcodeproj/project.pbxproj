@@ -13,11 +13,13 @@
 		6F8FE0DA1CDB3F250095BB18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F8FE0D81CDB3F250095BB18 /* Main.storyboard */; };
 		6F8FE0DC1CDB3F250095BB18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F8FE0DB1CDB3F250095BB18 /* Assets.xcassets */; };
 		6F8FE0DF1CDB3F250095BB18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F8FE0DD1CDB3F250095BB18 /* LaunchScreen.storyboard */; };
-		6F8FE0E71CDB426B0095BB18 /* Americana Dreams Upright.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F8FE0E61CDB426B0095BB18 /* Americana Dreams Upright.ttf */; };
 		6F8FE0E91CDB461E0095BB18 /* loveway.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F8FE0E81CDB461E0095BB18 /* loveway.ttf */; };
 		6F8FE0EB1CDB48CD0095BB18 /* Bauer Bodoni BT.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F8FE0EA1CDB48CD0095BB18 /* Bauer Bodoni BT.ttf */; };
 		6F8FE0EE1CDB571E0095BB18 /* MYLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8FE0ED1CDB571E0095BB18 /* MYLabel.m */; };
 		6F8FE0F11CDB5C620095BB18 /* UILabel+FontChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8FE0F01CDB5C620095BB18 /* UILabel+FontChange.m */; };
+		6FD92DD41E8C00CF002C11BC /* Symbol.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FD92DD31E8C00CF002C11BC /* Symbol.ttf */; };
+		6FD92DD61E8C0140002C11BC /* Avenir Next.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 6FD92DD51E8C0140002C11BC /* Avenir Next.ttc */; };
+		6FD92DD81E8C0505002C11BC /* Americana Dreams Upright.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FD92DD71E8C0505002C11BC /* Americana Dreams Upright.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,13 +33,15 @@
 		6F8FE0DB1CDB3F250095BB18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F8FE0DE1CDB3F250095BB18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F8FE0E01CDB3F250095BB18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6F8FE0E61CDB426B0095BB18 /* Americana Dreams Upright.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Americana Dreams Upright.ttf"; sourceTree = "<group>"; };
 		6F8FE0E81CDB461E0095BB18 /* loveway.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = loveway.ttf; sourceTree = "<group>"; };
 		6F8FE0EA1CDB48CD0095BB18 /* Bauer Bodoni BT.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bauer Bodoni BT.ttf"; sourceTree = "<group>"; };
 		6F8FE0EC1CDB571E0095BB18 /* MYLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYLabel.h; sourceTree = "<group>"; };
 		6F8FE0ED1CDB571E0095BB18 /* MYLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYLabel.m; sourceTree = "<group>"; };
 		6F8FE0EF1CDB5C620095BB18 /* UILabel+FontChange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+FontChange.h"; sourceTree = "<group>"; };
 		6F8FE0F01CDB5C620095BB18 /* UILabel+FontChange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+FontChange.m"; sourceTree = "<group>"; };
+		6FD92DD31E8C00CF002C11BC /* Symbol.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Symbol.ttf; sourceTree = "<group>"; };
+		6FD92DD51E8C0140002C11BC /* Avenir Next.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Avenir Next.ttc"; sourceTree = "<group>"; };
+		6FD92DD71E8C0505002C11BC /* Americana Dreams Upright.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Americana Dreams Upright.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,9 +74,11 @@
 		6F8FE0CE1CDB3F250095BB18 /* 字体设置 */ = {
 			isa = PBXGroup;
 			children = (
-				6F8FE0E61CDB426B0095BB18 /* Americana Dreams Upright.ttf */,
+				6FD92DD71E8C0505002C11BC /* Americana Dreams Upright.ttf */,
 				6F8FE0EA1CDB48CD0095BB18 /* Bauer Bodoni BT.ttf */,
 				6F8FE0E81CDB461E0095BB18 /* loveway.ttf */,
+				6FD92DD51E8C0140002C11BC /* Avenir Next.ttc */,
+				6FD92DD31E8C00CF002C11BC /* Symbol.ttf */,
 				6F8FE0D21CDB3F250095BB18 /* AppDelegate.h */,
 				6F8FE0D31CDB3F250095BB18 /* AppDelegate.m */,
 				6F8FE0EF1CDB5C620095BB18 /* UILabel+FontChange.h */,
@@ -156,9 +162,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F8FE0E71CDB426B0095BB18 /* Americana Dreams Upright.ttf in Resources */,
+				6FD92DD81E8C0505002C11BC /* Americana Dreams Upright.ttf in Resources */,
+				6FD92DD41E8C00CF002C11BC /* Symbol.ttf in Resources */,
 				6F8FE0EB1CDB48CD0095BB18 /* Bauer Bodoni BT.ttf in Resources */,
 				6F8FE0DF1CDB3F250095BB18 /* LaunchScreen.storyboard in Resources */,
+				6FD92DD61E8C0140002C11BC /* Avenir Next.ttc in Resources */,
 				6F8FE0E91CDB461E0095BB18 /* loveway.ttf in Resources */,
 				6F8FE0DC1CDB3F250095BB18 /* Assets.xcassets in Resources */,
 				6F8FE0DA1CDB3F250095BB18 /* Main.storyboard in Resources */,

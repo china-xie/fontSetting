@@ -9,6 +9,7 @@
 #import "ViewController.h"
 //#import "MYScrollViewController.h"
 #import "MYLabel.h"
+//#import "UILabel+FontChange.h"
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *label;
 @property (weak, nonatomic) IBOutlet UIButton *button;
@@ -36,21 +37,33 @@
 //            族科下字体的样式
             NSLog(@"%@",fontName);
         }
-    }
-    _label.font = [UIFont fontWithName:@"FZLiBian-S02S" size:17.0f];
+    }//FZLiBian-S02S
+//    _label.font = [UIFont fontWithName:@"Americana Dreams Upright" size:30.0f];
     
-    _button.titleLabel.font = [UIFont fontWithName:@"FZLiBian-S02S" size:17.0f];
+//    _button.titleLabel.font = [UIFont fontWithName:@"Americana Dreams Upright" size:30.0f];
     
-    _label2 = [[MYLabel alloc]initWithFrame:CGRectMake(170,350,100, 30)];
     
-    _label2.text=@"UILabel+FontChange";
+    
+    _label2 = [[MYLabel alloc]initWithFrame:CGRectMake(80,350,200, 30)];
+    
+    _label2.text=@"添加控件button";
     
     _label2.textColor = [UIColor redColor];
     
     _label2.backgroundColor = [UIColor lightGrayColor];
     
     [self.view addSubview:self.label2];
-   
+    UILabel * label3 = [[UILabel alloc]initWithFrame:CGRectMake(80,400,200, 30)];
+    
+    label3.text=@"添加控件label3";
+    
+    label3.textColor = [UIColor redColor];
+    
+    label3.backgroundColor = [UIColor lightGrayColor];
+    
+    label3.font = [UIFont fontWithName:@"Americana Dreams Upright" size:30.0f];
+    
+    [self.view addSubview:label3];
 }
 
 - (void)didReceiveMemoryWarning {
