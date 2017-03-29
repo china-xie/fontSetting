@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wZe-LD-dVY">
+                                <frame key="frameInset" minX="164" minY="253" width="106" height="30"/>
+                                <color key="backgroundColor" red="0.55813878800000005" green="0.85773188649999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="添加控件Button"/>
+                            </button>
+                            <button opaque="NO" tag="10086" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SLC-Vu-BfZ">
+                                <frame key="frameInset" minX="167" minY="475" width="90" height="30"/>
+                                <state key="normal" title="另一个button"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="添加控件Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wnX-Hs-aSx">
+                                <frame key="frameInset" minX="166" minY="175" width="110" height="20.5"/>
+                                <color key="backgroundColor" red="0.95218635620000003" green="0.53272746650000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="10000" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ShS-5T-TsB">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wZe-LD-dVY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="164" id="IB8-hJ-5Jg"/>
+                            <constraint firstItem="wnX-Hs-aSx" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="155" id="UBV-zZ-sbX"/>
+                            <constraint firstItem="SLC-Vu-BfZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="167" id="XRe-Qf-IZz"/>
+                            <constraint firstItem="ShS-5T-TsB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="173" id="eq7-nL-ifK"/>
+                            <constraint firstItem="ShS-5T-TsB" firstAttribute="top" secondItem="SLC-Vu-BfZ" secondAttribute="bottom" constant="78" id="ijp-nu-Txq"/>
+                            <constraint firstItem="wZe-LD-dVY" firstAttribute="top" secondItem="wnX-Hs-aSx" secondAttribute="bottom" constant="58" id="rP9-KG-CvS"/>
+                            <constraint firstItem="SLC-Vu-BfZ" firstAttribute="top" secondItem="wZe-LD-dVY" secondAttribute="bottom" constant="191.5" id="rs7-B3-BKU"/>
+                            <constraint firstItem="wnX-Hs-aSx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="166" id="sdo-da-ltE"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="button" destination="wZe-LD-dVY" id="DQY-fS-Efz"/>
+                        <outlet property="button2" destination="SLC-Vu-BfZ" id="KgM-OT-Okt"/>
+                        <outlet property="label" destination="wnX-Hs-aSx" id="W4c-GI-PJg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="289" y="166"/>
+        </scene>
+    </scenes>
+</document>

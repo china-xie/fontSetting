@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "28BF29794DA79EEA3F44D02BA60DAC878E742AEE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "08857E418124E2EEC874093D6206E93E4DED2C02" : 9223372036854775807,
+    "28BF29794DA79EEA3F44D02BA60DAC878E742AEE" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A2FBABB8-5E15-43DC-9CF3-849CD6DE3D54",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "08857E418124E2EEC874093D6206E93E4DED2C02" : "fontSetting\/%E5%AD%97%E4%BD%93%E8%AE%BE%E7%BD%AE\/",
+    "28BF29794DA79EEA3F44D02BA60DAC878E742AEE" : "fontSetting\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "字体设置",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "字体设置.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/IT-iOS-xie\/-.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "08857E418124E2EEC874093D6206E93E4DED2C02"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/IT-iOS-xie\/fontSetting.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "28BF29794DA79EEA3F44D02BA60DAC878E742AEE"
+    }
+  ]
+}
